@@ -11,6 +11,9 @@ type
     (* Tokenizer for Delphi grammar language *)
     TScanner = class
         constructor init;
+
+        
+        
     end;
 
 implementation
@@ -20,4 +23,7 @@ implementation
         
         writeLn('TScanner:  Initializing!');
     end;
+
+
+    
 end.

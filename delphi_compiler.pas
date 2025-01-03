@@ -2,13 +2,18 @@
 program DelphiCompiler(input, output);
 
 uses
-    scanner, parser;
+    Crt, scanner, parser;
 
 var
     lexer: TScanner;
 
 begin
-    writeLn('Open Delphi compiler, version 0.00');
+    TextColor(Green);
+    WriteLn('');
+    write('Open Delphi compiler');
+    TextColor(White);
+    WriteLn(', version 0.00');
+    WriteLn('');
 
     lexer := TScanner.init;
 end.
